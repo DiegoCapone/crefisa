@@ -1,0 +1,5 @@
+RewriteEngine On
+ErrorDocument 404 /index.html
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /index.html [L]

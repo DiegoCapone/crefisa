@@ -1,0 +1,15 @@
+.Link{
+    font-size: 12.5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Link:active{
+    color: #DCDCDC;
+}
+
+.icon{
+    color: #FFF
+}
